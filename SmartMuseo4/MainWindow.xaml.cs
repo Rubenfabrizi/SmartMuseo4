@@ -23,6 +23,14 @@ namespace SmartMuseo4
         public MainWindow()
         {
             InitializeComponent();
+            Cmb_Opere.Items.Add("Tokyo");
+            Cmb_Opere.Items.Add("armadio");
+            Cmb_Opere.Items.Add("opere");
+        }
+
+        private void Cmb_Opere_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

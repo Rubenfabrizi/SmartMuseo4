@@ -8,6 +8,7 @@
         Title="MainWindow" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Image Margin="0,-1,-0.4,0" Source="Le-Gallerie-degli-Uffizi.jpg" Stretch="Fill"/>
+        <ComboBox x:Name="Cmb_Opere" HorizontalAlignment="Left" Margin="417,189,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Cmb_Opere_SelectionChanged"/>
 
     </Grid>
 </Window>
