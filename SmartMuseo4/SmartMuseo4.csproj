@@ -55,6 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Armadio.xaml.cs">
+      <DependentUpon>Armadio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Opere.xaml.cs">
+      <DependentUpon>Opere.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tokyo.xaml.cs">
+      <DependentUpon>Tokyo.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Armadio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +80,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Opere.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Tokyo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +117,27 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Le-Gallerie-degli-Uffizi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="sp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ARMADIO_METALLICO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1494518454204_1514566776.jpg--il_teatro_dell_opera_di_roma_e_piu_vivo_che_mai__basta_leggere_la_sua_storia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="62817.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="97fbd5924c94d096db95e23747840500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="917eaee346022998cde85db260a11841.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="h.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

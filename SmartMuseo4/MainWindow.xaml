@@ -5,10 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SmartMuseo4"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="MainWindow" Height="450" Width="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
         <Image Margin="0,-1,-0.4,0" Source="Le-Gallerie-degli-Uffizi.jpg" Stretch="Fill"/>
-        <ComboBox x:Name="Cmb_Opere" HorizontalAlignment="Left" Margin="417,189,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="Cmb_Opere_SelectionChanged"/>
+        <ComboBox x:Name="Cmb_Opere" HorizontalAlignment="Left" Margin="449,166,0,0" VerticalAlignment="Top" Width="216" SelectionChanged="Cmb_Opere_SelectionChanged" Height="37"/>
+        <Button x:Name="Btn_Opera" Content="Apri " HorizontalAlignment="Left" Height="42" Margin="451,232,0,0" VerticalAlignment="Top" Width="214" Click="Btn_Opera_Click"/>
+        <Label Content="Descrizione museo" HorizontalAlignment="Left" Height="291" Margin="106,72,0,0" VerticalAlignment="Top" Width="189">
+            <Label.Background>
+                <SolidColorBrush Color="White" Opacity="0.8"/>
+            </Label.Background>
+        </Label>
+        <Label Content="  Cerca la tua opera preferita " HorizontalAlignment="Left" Height="33" Margin="451,102,0,0" VerticalAlignment="Top" Width="214" FontSize="20" FontFamily="Agency FB">
+            <Label.Background>
+                <SolidColorBrush Color="White" Opacity="0.7"/>
+            </Label.Background>
+        </Label>
 
     </Grid>
 </Window>

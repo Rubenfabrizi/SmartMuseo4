@@ -1,0 +1,15 @@
+﻿<Window x:Class="SmartMuseo4.Armadio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SmartMuseo4"
+        mc:Ignorable="d"
+        Title="Armadio" Height="450" Width="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Background="#FFB6B6B6">
+        <Image Margin="99,94,467,58.6" Source="ARMADIO_METALLICO.jpg" Stretch="Fill" RenderTransformOrigin="0.076,0.362"/>
+        <Label Content="Descreizione: Opera " HorizontalAlignment="Left" Height="297" Margin="426,94,0,0" VerticalAlignment="Top" Width="220"/>
+        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="313,29,0,0" VerticalAlignment="Top" Width="181" FontFamily="Agency FB" FontSize="36"/>
+
+    </Grid>
+</Window>
