@@ -139,5 +139,8 @@
   <ItemGroup>
     <Resource Include="h.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="muro-di-mattoni-nero_1154-704.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,9 +7,10 @@
         mc:Ignorable="d"
         Title="Opere" Height="450" Width="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid Background="#FF999999">
-        <Image Margin="87,109,523.6,40" Source="1494518454204_1514566776.jpg--il_teatro_dell_opera_di_roma_e_piu_vivo_che_mai__basta_leggere_la_sua_storia.jpg" Stretch="Fill"/>
-        <Label Content="Descrizione: Opera" HorizontalAlignment="Left" Height="271" Margin="458,109,0,0" VerticalAlignment="Top" Width="217"/>
-        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="313,29,0,0" VerticalAlignment="Top" Width="181" FontFamily="Agency FB" FontSize="36"/>
+        <Image Margin="0,0,-0.4,0" Source="muro-di-mattoni-nero_1154-704.jpg" Stretch="Fill"/>
+        <Image Margin="95,73,515.6,76" Source="1494518454204_1514566776.jpg--il_teatro_dell_opera_di_roma_e_piu_vivo_che_mai__basta_leggere_la_sua_storia.jpg" Stretch="Fill"/>
+        <Label Content="Descrizione: Opera" HorizontalAlignment="Left" Height="271" Margin="544,73,0,0" VerticalAlignment="Top" Width="217" Foreground="#FFFCF9F9"/>
+        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="349,28,0,0" VerticalAlignment="Top" Width="181" FontFamily="Agency FB" FontSize="36" RenderTransformOrigin="-0.723,-0.17" Foreground="White"/>
 
     </Grid>
 </Window>
