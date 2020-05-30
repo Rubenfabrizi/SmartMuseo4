@@ -10,10 +10,11 @@
         <Grid.Background>
             <ImageBrush/>
         </Grid.Background>
-        <Image Margin="0,0,-0.4,0" Source="h.jpg" Stretch="Fill"/>
-        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="358,40,0,0" VerticalAlignment="Top" Width="150" FontFamily="Agency FB" FontSize="36" Background="{x:Null}" Foreground="White" RenderTransformOrigin="0.281,0.898"/>
-        <Image Margin="100,98,503.6,62" Source="sp.jpg" Stretch="Fill"/>
-        <Label Content="Descrizine: Quadro " HorizontalAlignment="Left" Height="289" Margin="524,98,0,0" VerticalAlignment="Top" Width="204" Foreground="#FFFAF7F7"/>
+        <Image Margin="0,0,-0.4,0" Source="muro-di-mattoni-nero_1154-704.jpg" Stretch="Fill"/>
+
+        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="311,22,0,0" VerticalAlignment="Top" Width="150" FontFamily="Agency FB" FontSize="36" Background="{x:Null}" Foreground="White" RenderTransformOrigin="0.281,0.898"/>
+        <Image Margin="84,75,519.6,56" Source="sp.jpg" Stretch="Fill"/>
+        <Label x:Name="Lbl_opera1" Content="" HorizontalAlignment="Left" Height="289" Margin="522,75,0,0" VerticalAlignment="Top" Width="204" Foreground="#FFFAF7F7"/>
 
     </Grid>
 </Window>

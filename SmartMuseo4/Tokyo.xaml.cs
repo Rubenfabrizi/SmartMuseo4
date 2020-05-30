@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartMuseo4.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,14 @@ namespace SmartMuseo4
         public Tokyo()
         {
             InitializeComponent();
+        }
+
+        public void DescrizioneOpere()
+        {
+            Opera1 o = new Opera1();
+
+            o.DescrizioneOpera = "Descrizione dell'opera";
+            Lbl_opera1.Content = o.DescrizioneOpera;
         }
     }
 }

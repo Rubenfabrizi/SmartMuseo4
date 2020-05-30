@@ -7,9 +7,11 @@
         mc:Ignorable="d"
         Title="Armadio" Height="450" Width="800"  ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid Background="#FFB6B6B6">
+        <Image Margin="0,0,-0.4,0" Source="muro-di-mattoni-nero_1154-704.jpg" Stretch="Fill"/>
+
         <Image Margin="99,94,467,58.6" Source="ARMADIO_METALLICO.jpg" Stretch="Fill" RenderTransformOrigin="0.076,0.362"/>
-        <Label Content="Descreizione: Opera " HorizontalAlignment="Left" Height="297" Margin="426,94,0,0" VerticalAlignment="Top" Width="220"/>
-        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="313,29,0,0" VerticalAlignment="Top" Width="181" FontFamily="Agency FB" FontSize="36"/>
+        <Label Content="Descreizione: Opera " HorizontalAlignment="Left" Height="267" Margin="505,94,0,0" VerticalAlignment="Top" Width="220" Foreground="#FFFCFCFC"/>
+        <Label Content="Nome Opera " HorizontalAlignment="Left" Height="46" Margin="313,29,0,0" VerticalAlignment="Top" Width="181" FontFamily="Agency FB" FontSize="36" Foreground="White"/>
 
     </Grid>
 </Window>

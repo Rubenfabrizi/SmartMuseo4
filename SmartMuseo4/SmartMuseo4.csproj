@@ -58,6 +58,8 @@
     <Compile Include="Armadio.xaml.cs">
       <DependentUpon>Armadio.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Museo.cs" />
+    <Compile Include="Model\Opera1.cs" />
     <Compile Include="Opere.xaml.cs">
       <DependentUpon>Opere.xaml</DependentUpon>
     </Compile>
@@ -126,9 +128,6 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="1494518454204_1514566776.jpg--il_teatro_dell_opera_di_roma_e_piu_vivo_che_mai__basta_leggere_la_sua_storia.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="62817.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="97fbd5924c94d096db95e23747840500.jpg" />
